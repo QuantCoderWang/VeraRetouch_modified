@@ -71,6 +71,8 @@
 | [docs/DEPENDENCIES.md](docs/DEPENDENCIES.md) | **依赖包说明**：每个包的用途、GPU 专用可选项、打包精简了什么 |
 | [docs/README_upstream.md](docs/README_upstream.md) | 原版 VeraRetouch README 存档（论文、作者、原功能） |
 | [CPU_MIGRATION_AND_UI_PLAN.md](CPU_MIGRATION_AND_UI_PLAN.md) | CPU 移植与界面改造全过程工程记录 |
+| [批量自动修复_技术方案.md](批量自动修复_技术方案.md) | 批量执行自动修复放记录 |
+| [界面汉化_打包安装_参数滑块_改造方案.md](界面汉化_打包安装_参数滑块_改造方案.md) | 应用首版改造方案 |
 
 ---
 
@@ -190,4 +192,3 @@ iscc /DFULL installer\veraretouch.iss                  # 形态 3 全量离线�
 | **代码**（本仓库全部源码，含二开部分） | **Apache License 2.0**（随附 `NOTICE` 著作权声明） |
 | **模型权重**（checkpoints 及其衍生模型） | **仅限学术研究，禁止商业用途**（原版作者声明） |
 
-为何不改用 MIT：上游代码已是 Apache-2.0，衍生作品应保持该许可与 NOTICE 精神；换更宽松的 MIT 不会让权重许可变宽松（权重单独受限），反而丢掉 Apache-2.0 的显式专利保护条款。用代码遵守 Apache-2.0（保留版权与许可声明）；用权重遵守学术限制。
