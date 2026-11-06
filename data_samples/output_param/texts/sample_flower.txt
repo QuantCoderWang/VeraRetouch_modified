@@ -1,0 +1,8 @@
+Here is my retouch plan:
+Retouch Plan:
+   <plan_light_start>: <plan_light_end>
+  <plan_globalcolor_start>: 1. Slightly increase color temperature; 2. Moderately boost vibrance;<plan_globalcolor_end>
+  <plan_specificcolor_start>: 1. Blue channel: Moderately increase saturation.<plan_specificcolor_end>
+
+Retouch Tokens:
+<retouch_light><retouch_color&temp><retouch_colormixer>

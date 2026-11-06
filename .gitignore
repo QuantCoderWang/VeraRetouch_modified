@@ -1,0 +1,59 @@
+# =====================================================================
+# VeraRetouch GUI（二开版）.gitignore
+# 原则：模型权重、虚拟环境、打包产物一律不入库；源码与配置全保留
+# =====================================================================
+
+# ---------- Python 运行垃圾 ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+
+# ---------- 虚拟环境（开发 venv / 打包构建 venv）----------
+vera_venv/
+packaging/pack_venv/
+venv/
+.venv/
+env/
+
+# ---------- 模型权重与数据（体积大，不入库）----------
+checkpoints/
+*.pth
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.onnx
+# 注意：data_samples/ 与 assets/ 中的示例图保留入库；ID 卡等隐私文件勿放
+
+# ---------- Gradio 运行时产物 ----------
+gradio_outputs/
+cache/
+.cache/
+# 命令行推理的默认输出目录（data_samples/output/）
+data_samples/output/
+
+# ---------- 打包产物与构建日志 ----------
+packaging/staging/
+packaging/staging_full/
+packaging/logs/
+installer/dist/
+
+# ---------- 系统与 IDE ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
+
+# ---------- 本地临时 / 密钥 ----------
+*.log
+*.tmp
+.env

@@ -1,0 +1,12 @@
+The main content contained in this image:
+ flowers, petals, stamens, pistil, sepals, stems, leaves, branches, background, light;
+The user want to enhance the floral subject’s color richness with a soft pink aesthetic while lifting dark background contrast without losing detail.
+The user wants a ' dreamy bright Pink' effect to the entire image, focusing on color vibrancy and background tonal balance.
+The user wants a ' dreamy bright Pink Style. Here is my retouch plan:
+Retouch Plan:
+   <plan_light_start>: 1. Increase exposure slightly to brighten the overall image; 2. Reduce highlights to preserve detail in the brightest parts of the flowers; 3. Brighten shadows to reveal more texture in the darker areas without losing depth; 4. Slightly increase contrast to enhance the separation between the flowers and the background; 5. Adjust whites and blacks to optimize tonal range and maintain a strong contrast.<plan_light_end>
+  <plan_globalcolor_start>: 1. Increase color temperature slightly to add warmth and enhance the natural tones of the blossoms; 2. Boost vibrance to make the colors pop without making them overly saturated; 3. Adjust tint to balance any unwanted color casts and ensure that the pink and orange hues remain natural.<plan_globalcolor_end>
+  <plan_specificcolor_start>: 1. For the Red channel (blossom centers): Increase saturation to intensify the deep pink tones and boost luminance slightly to make them stand out; 2. For the Orange channel (petals): Slightly increase saturation and luminance to enhance the warm glow and make the flowers appear more radiant; 3. For the Yellow channel (background leaves): Reduce saturation to minimize distractions and keep the focus on the flowers.<plan_specificcolor_end>
+
+Retouch Tokens:
+<retouch_light><retouch_color&temp><retouch_colormixer>

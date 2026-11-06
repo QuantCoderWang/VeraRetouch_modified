@@ -1,0 +1,34 @@
+# VeraRetouch CPU-only requirements (Python 3.12, Windows)
+# GPU 专属依赖已注释：bitsandbytes / deepspeed / flash_attn / sglang / xformers
+# torch / torchvision 需单独安装 CPU 版（见下方安装步骤）
+
+attrdict3==2.0.2
+diffusers==0.34.0
+fastapi==0.136.1
+gradio==6.14.0
+huggingface_hub==0.36.0
+matplotlib==3.10.9
+numpy==2.4.4
+opencv_python==4.10.0.84
+packaging==26.2
+peft==0.15.0
+Pillow==12.2.0
+python_box==7.3.2
+PyYAML==6.0.3
+Requests==2.33.1
+safetensors==0.7.0
+scikit-image
+timm==1.0.26
+tokenizers==0.22.1
+tqdm==4.67.1
+transformers==4.57.1
+uvicorn==0.46.0
+
+# --- GPU 专用依赖（无 N 卡请勿启用）---
+# bitsandbytes==0.46.0
+# deepspeed==0.14.4
+# flash_attn==2.8.3
+# sglang==0.5.10.post1
+# xformers==0.0.35
+# torch==2.6.0+cu118
+# torchvision==0.21.0+cu118

@@ -1,0 +1,24 @@
+# VeraRetouch 打包专用精简依赖（Python 3.12, Windows, CPU）
+# 与根目录 requirements.txt 的差异：已移除 matplotlib / scikit-image
+# （仅被 data/data_utils.py 使用，且该模块不在推理链；该文件已做惰性导入兜底）。
+# GPU 分流（CUDA 版 torch）由安装器向导在 GPU 机器上另行覆盖安装，见改造方案 §4.10。
+
+attrdict3==2.0.2
+diffusers==0.34.0
+fastapi==0.136.1
+gradio==6.14.0
+huggingface_hub==0.36.0
+numpy==2.4.4
+opencv_python==4.10.0.84
+packaging==26.2
+peft==0.15.0
+Pillow==12.2.0
+python_box==7.3.2
+PyYAML==6.0.3
+Requests==2.33.1
+safetensors==0.7.0
+timm==1.0.26
+tokenizers==0.22.1
+tqdm==4.67.1
+transformers==4.57.1
+uvicorn==0.46.0

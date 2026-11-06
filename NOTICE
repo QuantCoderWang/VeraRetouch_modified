@@ -1,0 +1,35 @@
+=====================================================================
+NOTICE（著作权与出处声明）
+=====================================================================
+
+本仓库（VeraRetouch 中文图形界面二开版）基于以下原项目进行工程化
+二次开发，特此郑重致谢、并声明权利归属：
+
+    原项目：OpenVeraTeam/VeraRetouch
+    地址：https://github.com/OpenVeraTeam/VeraRetouch
+    论文：VeraRetouch: A Lightweight Fully Differentiable Framework
+          for Multi-Task Reasoning Photo Retouching
+          （arXiv:2604.27375）
+    原作者：Yihong Guo, Youwei Lyu, Jiajun Tang, Yizhuo Zhou,
+            Hongliang Wang, Jinwei Chen, Changqing Zou, Qingnan Fan
+            （浙江大学 / vivo BlueImage Lab / 中国科学院大学）
+
+模型核心算法、模型权重与原 iOS/macOS 部署工程（ml-veraretouch/）
+的全部权利归上述原项目作者所有。
+
+许可结构（同原版 LICENSE）：
+  - 代码：Apache License 2.0 —— 遵循 Apache-2.0 惯例，本 NOTICE
+    文档作为其署名与变更说明的一部分随仓库分发，使用者修改或
+    再分发时应保留本声明。
+  - 模型权重（checkpoints/ 及其衍生模型）：仅限学术研究，
+    禁止商业使用（需原项目作者书面许可）。
+
+变动范围：本仓库改动/新增的文件包括 CPU 移植、Gradio 中文图形
+界面与 38 参数滑块交互、Windows 打包管线（packaging/ 与 installer/）、
+回归测试（tests/）等，由人类开发者提供修改思路与设计决策、
+AI 编程助手辅助编写并经人类逐项审阅与实测验证完成。
+原项目源文件未做改动的部分（含其版权声明）保持原样。
+
+完整改进明细：docs/CHANGES_VS_UPSTREAM.md
+原版 README 存档：docs/README_upstream.md
+=====================================================================
